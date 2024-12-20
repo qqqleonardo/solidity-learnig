@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StateVariables.sol": "StateVariables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StateVariables.sol": {
+			"keccak256": "0x17a3169c94d687028ac1ddd704a9b00dce65ac8d96ff837f9e9fdff18340d11d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9f3f5a69c5a8af62190834909111c8eadc8791ed53356c9ac73dc086bc74536",
+				"dweb:/ipfs/QmcX3nxvGrdomwGWQxhiBywqt79qsk5aSooVzi3ayo8Stm"
+			]
+		}
+	},
+	"version": 1
+}
