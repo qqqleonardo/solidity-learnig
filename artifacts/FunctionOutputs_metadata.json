@@ -80,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"FunctionOutputs1.sol": "FunctionOutputs"
+			"FunctionOutputs.sol": "FunctionOutputs"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -94,7 +94,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"FunctionOutputs1.sol": {
+		"FunctionOutputs.sol": {
 			"keccak256": "0xf046c4cd8967cb1d54306d7da46f2ece55c68b2332009beceec8060a6aab97e9",
 			"license": "MIT",
 			"urls": [

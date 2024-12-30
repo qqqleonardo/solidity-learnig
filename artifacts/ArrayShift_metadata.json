@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "count",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,14 +26,27 @@
 			},
 			{
 				"inputs": [],
-				"name": "decr",
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "inc",
+				"name": "test",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -46,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Counter.sol": "Counter"
+			"ArrayShift.sol": "ArrayShift"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -60,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Counter.sol": {
-			"keccak256": "0x227bc546a14129fd727eb74ce69ff10d791aea4474c458bd8658050523e860b9",
+		"ArrayShift.sol": {
+			"keccak256": "0xf5c7059b0e3bc96e2d1af73b623ec5a103c869109fbbba3bded6c7e228baf9da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eb28562928398c049b68c2643497e1d6a9251ba1e38e52e285090e9b40e69b09",
-				"dweb:/ipfs/QmWSyzbzdYe3ACfcrgmFTztGvmjcpZmpcZc8SW1vQE1go3"
+				"bzz-raw://dc73d337686cc70be67f8a17c24d68e5873084d07a0af36de6890a08349823c7",
+				"dweb:/ipfs/QmRfy27bmbk6y6JgD5vYSYqZvG3KbNLWeUEcahHzyxBejB"
 			]
 		}
 	},

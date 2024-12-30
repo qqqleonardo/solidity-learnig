@@ -9,34 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "caller",
+						"name": "",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
 					}
 				],
-				"name": "MyError",
-				"type": "error"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_i",
-						"type": "uint256"
-					}
-				],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -49,8 +26,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "testAssert",
-				"outputs": [],
+				"name": "first",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
@@ -62,35 +45,65 @@
 						"type": "uint256"
 					}
 				],
-				"name": "testCustomError",
-				"outputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "inserted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "last",
+				"outputs": [
+					{
 						"internalType": "uint256",
-						"name": "_i",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "testRequire",
-				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_key",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_i",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "testRevert",
+				"name": "set",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -107,7 +120,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Error.sol": "Error"
+			"IterableMapping.sol": "IterableMapping"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -121,12 +134,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Error.sol": {
-			"keccak256": "0x7028dd4c0d907765fd5a887faba36dbb13874ec5af8655e82df695f77018d14c",
+		"IterableMapping.sol": {
+			"keccak256": "0x005056e12f98ba8d177f624f1a3ba73690104c01df08055e5c656fa0e362b799",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee31960adea4e3d465e2ea556ea543d9efbfe0fbef1ba68b3d86cf662fa0dd78",
-				"dweb:/ipfs/QmaoTyCTfn5Cvq8cQBK4W9U29vrF6TAs5o3nqRhcS7DmuJ"
+				"bzz-raw://b0703b47b89eb193236cd96dab359dfaacfbfed88282462e106d3ef26945d2e6",
+				"dweb:/ipfs/QmYPhmku75Bwu6wQQ7iV5FCw9FmCjQ2up8bxvDzigBgVd3"
 			]
 		}
 	},
