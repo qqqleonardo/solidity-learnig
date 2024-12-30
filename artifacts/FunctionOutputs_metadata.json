@@ -6,69 +6,43 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "assigned",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "x",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "destructingAssignments",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "named",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "x",
 						"type": "uint256"
-					}
-				],
-				"name": "addToNumber",
-				"outputs": [
+					},
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "number",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pureFunc",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -76,15 +50,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "viewFunc",
+				"name": "returnMany",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -101,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ViewAndPureFunctions.sol": "ViewAndPureFunctions"
+			"FunctionOutputs1.sol": "FunctionOutputs"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -115,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ViewAndPureFunctions.sol": {
-			"keccak256": "0xda98f79bf885e5dbaf227d8190958a5ce16ff29e651d2fc10e4221912c32dc8d",
+		"FunctionOutputs1.sol": {
+			"keccak256": "0xf046c4cd8967cb1d54306d7da46f2ece55c68b2332009beceec8060a6aab97e9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e6796e528129468a1231b7bf6462b037d5b59eb7cec2fc4825bf05d21b9c0fb",
-				"dweb:/ipfs/QmPHmv9BH1mYGKvEiQBNoWHhG65Mr8FnmBd1Gtgk91cznS"
+				"bzz-raw://bf15fa38fa80dd3d7d9cf733768328e9eac79f843041911fa1cf2658fdaf3f3a",
+				"dweb:/ipfs/QmTL9hXisq9ojsxK1eRbRkRWNUVSdRjsMJL4So6E1Wvazq"
 			]
 		}
 	},

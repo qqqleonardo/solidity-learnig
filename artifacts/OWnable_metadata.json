@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"FunctionOutputs.sol": "Name"
+			"Ownable.sol": "OWnable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"FunctionOutputs.sol": {
-			"keccak256": "0x0655f3ba73e402d39edb12f984fed4c2d9a6da66404cf877203e43eecf1100c5",
+		"Ownable.sol": {
+			"keccak256": "0x224327229d3ee4695b83aa80b59defe9c3ca8b9548bd0f43b2c18ec775d27bcd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726d49cfe79ff4cfe4e2cd923f471d9d8558bbc67a9ed0836ec7c532ecf5baaa",
-				"dweb:/ipfs/QmZ3sKbHLhnWbzui6z5oaSjb3oTmciqb7UQcscHJSV14Wn"
+				"bzz-raw://e45d8f524b05dbde002f3fd59b1f38776871738c4845b0b5c5f30b2cd97d3a1c",
+				"dweb:/ipfs/QmTJkV1ML3aCvQroFzBzGmJpQhYfMGrhAmcNqV74jNR2qU"
 			]
 		}
 	},

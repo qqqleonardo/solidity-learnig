@@ -7,59 +7,31 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "anyOneCanCallthisFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "onlyOwnerCanCallthisFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "decr",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incr",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
-					}
-				],
-				"name": "incrBy",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "paused",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -68,12 +40,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "_paused",
-						"type": "bool"
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
 					}
 				],
-				"name": "setPaused",
+				"name": "setOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -92,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"FunctionModifier.sol": "FunctionModifier"
+			"Ownable.sol": "Ownable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -106,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"FunctionModifier.sol": {
-			"keccak256": "0x859580f8ef95b5013b972f5559a7058b7cc71e4678ce8e57f81e856f276df5bd",
+		"Ownable.sol": {
+			"keccak256": "0x1ee1e8b466a8078912c129bdc2048184f3c76e54c3bd742368dad44efece78a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://96e06aaa803a14013775064fadbba5c6b8aa7c9973dcf7f620bfdb19338a556e",
-				"dweb:/ipfs/QmQn5MEoxjRGqFTneNkGfEMxTEFhfDPep4ZJTpsMxwwAs1"
+				"bzz-raw://8df8801394b511799ba01290ebcf28c0b17b88e344c1207716e732e344ddc108",
+				"dweb:/ipfs/QmZ8x1tfLY6Sk7b96KCo97Jq83DmVbuUqQffHU8Z5PaRqX"
 			]
 		}
 	},
