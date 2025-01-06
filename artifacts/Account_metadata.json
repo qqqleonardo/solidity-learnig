@@ -6,21 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "sender",
+				"name": "bank",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -32,26 +30,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "value",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -71,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"DelegateCall.sol": "B"
+			"New.sol": "Account"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"DelegateCall.sol": {
-			"keccak256": "0x4a75c515e6a8c67f9e005c73ff0bac00a725fc20ac937dd2f394f4a11152d22a",
+		"New.sol": {
+			"keccak256": "0xda9dd3c247831e00e12de0fe026d3415a3ec9a43784c29360d47a2ac8a45aea3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20d7cee48d3c4b967694bb71f4a443d915791f292b99954899215773870111df",
-				"dweb:/ipfs/QmSDxKjkcmVQ5X2Xdjdkjh6gK4YkJtdVvV7dBcswUsGVT4"
+				"bzz-raw://f6b817ff6513f7ef4c675dfe52a56262b21c825be461f3edee701ab8f27d6b8f",
+				"dweb:/ipfs/QmfRXUeC4tWwYaf1YzqgYqQjubBUstAwmdQ4G3AQ2xCGrP"
 			]
 		}
 	},

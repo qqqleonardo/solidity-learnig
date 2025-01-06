@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Interface.sol": "Name"
+			"Interface.sol": "ICount"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Interface.sol": {
-			"keccak256": "0xaaf856ef01d3de929dffccb02aa68271d52bb41153784522127a5341b28c51e8",
+			"keccak256": "0xd1086e9b86d77733e23d20c4faec22d6f65c627a494faf770b966b74e9b83901",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dad50aca67a95bbc32c1c2bce86e9c11712d16a1aa56d4ebe52cabca3c9d3fd8",
-				"dweb:/ipfs/QmaezLqQuLEnQkMwGCT6EjqAYnQ1g5r3BRf8g6m33hCQV5"
+				"bzz-raw://7a056949fd2634ef6c67c8a015e962cb62fee8d2f02524b67c37846f11d549db",
+				"dweb:/ipfs/QmTPvJmdGQooT6j4HWEUAetrqNqVgwesUxSz8mBHtMz2ms"
 			]
 		}
 	},

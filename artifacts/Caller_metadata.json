@@ -6,26 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
+				"inputs": [
+					{
+						"internalType": "contract TestContract",
+						"name": "_test",
+						"type": "address"
+					}
+				],
+				"name": "getX",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -34,32 +27,61 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_contract",
+						"internalType": "contract TestContract",
+						"name": "_test",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
 					}
 				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
+				"name": "getXandValue",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract TestContract",
+						"name": "_test",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract TestContract",
+						"name": "_test",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXandSendEther",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -76,7 +98,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"DelegateCall.sol": "A"
+			"Caller.sol": "Caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,12 +112,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"DelegateCall.sol": {
-			"keccak256": "0x4a75c515e6a8c67f9e005c73ff0bac00a725fc20ac937dd2f394f4a11152d22a",
+		"Caller.sol": {
+			"keccak256": "0xdcf83f901c877d2c56e75b1a01f7c9997549c8dca2afccaa1bc9ce835a67f56c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20d7cee48d3c4b967694bb71f4a443d915791f292b99954899215773870111df",
-				"dweb:/ipfs/QmSDxKjkcmVQ5X2Xdjdkjh6gK4YkJtdVvV7dBcswUsGVT4"
+				"bzz-raw://71b567b6777c2148ffb8dd37596036544fb797c25b28cb58345dc97343a1a654",
+				"dweb:/ipfs/QmeQudbB9M6fZ8N6rktVmQU3r71Ka4gLnfiKnwWhZd2Yz4"
 			]
 		}
 	},

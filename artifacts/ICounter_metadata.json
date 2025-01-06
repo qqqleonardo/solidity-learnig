@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Interface.sol": "Counter"
+			"Interface.sol": "ICounter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

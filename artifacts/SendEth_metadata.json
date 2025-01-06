@@ -7,41 +7,51 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "deposit",
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaCall",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address payable",
-						"name": "",
+						"name": "_to",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "sendViaSend",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaTransfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -57,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Payable.sol": "Payable"
+			"SendEth.sol": "SendEth"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -71,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Payable.sol": {
-			"keccak256": "0x21bd77ae5396b8121052fe2378e8712c894ad8299934c2052ff7dd51b9b75690",
+		"SendEth.sol": {
+			"keccak256": "0xc5e008ec425519e5c6b5105c0869ea16c451de1fb73dbfd81e154308b746393c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://02fdd91b7ad4b8f3af1907423f33a3e2505387e64729359b3fcf9838404dc5e1",
-				"dweb:/ipfs/Qmeq6PT5Ajm5BghveViKJEqToeMVG8A9KcsAXzzRqjAYJk"
+				"bzz-raw://7ab77d2897d04c5dd6d163d27aba19e70112ec3ec307919277468562d5dbb504",
+				"dweb:/ipfs/Qmbt1asDRVygFGw1oEqNFYghbKZVLc5dbV6TABuf3WxNjt"
 			]
 		}
 	},

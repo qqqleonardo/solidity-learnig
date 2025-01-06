@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Interface.sol": "Name"
+			"SendEth.sol": "EthReceive"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Interface.sol": {
-			"keccak256": "0xaaf856ef01d3de929dffccb02aa68271d52bb41153784522127a5341b28c51e8",
+		"SendEth.sol": {
+			"keccak256": "0x894a64c6361c1b5bf81090510449027ab56fe48728c3c449a60258f89c88b5b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dad50aca67a95bbc32c1c2bce86e9c11712d16a1aa56d4ebe52cabca3c9d3fd8",
-				"dweb:/ipfs/QmaezLqQuLEnQkMwGCT6EjqAYnQ1g5r3BRf8g6m33hCQV5"
+				"bzz-raw://e1a47078a3f41eed288acbfcb30bd7d59dbdc32e5ebad0bf8cc0148a84e160b8",
+				"dweb:/ipfs/QmNimQqEsV8Z4G4RDCC2dSUhRCUzkFMsMjzNfZnxUGknEL"
 			]
 		}
 	},

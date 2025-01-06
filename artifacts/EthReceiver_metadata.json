@@ -6,24 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "Log",
+				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -39,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Interface.sol": "Counter"
+			"SendEth.sol": "EthReceiver"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Interface.sol": {
-			"keccak256": "0x3a07c4f71948d439d0257b1b97b55ab7cd7eca94f9295e2d89154b3c97783dc8",
+		"SendEth.sol": {
+			"keccak256": "0xc5e008ec425519e5c6b5105c0869ea16c451de1fb73dbfd81e154308b746393c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fdffffb57775f845c2a4414a65290023b948ed3fe034cc5e641ca0eb5fedb31f",
-				"dweb:/ipfs/QmeLYeLtWPjsjvCEoCBWEVK7f9iLQPuB7E6Em6K64qcSC8"
+				"bzz-raw://7ab77d2897d04c5dd6d163d27aba19e70112ec3ec307919277468562d5dbb504",
+				"dweb:/ipfs/Qmbt1asDRVygFGw1oEqNFYghbKZVLc5dbV6TABuf3WxNjt"
 			]
 		}
 	},

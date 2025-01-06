@@ -6,52 +6,39 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_test",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "callNotExist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_test",
+						"type": "address"
 					}
 				],
-				"name": "setVars",
+				"name": "callfoo",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "value",
+				"name": "data",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "view",
@@ -71,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"DelegateCall.sol": "B"
+			"Call.sol": "Call"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"DelegateCall.sol": {
-			"keccak256": "0x4a75c515e6a8c67f9e005c73ff0bac00a725fc20ac937dd2f394f4a11152d22a",
+		"Call.sol": {
+			"keccak256": "0x0bac5f1eb531d270ef9e92045f563e2b179491b4206394ad7b9909673d3a64c3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20d7cee48d3c4b967694bb71f4a443d915791f292b99954899215773870111df",
-				"dweb:/ipfs/QmSDxKjkcmVQ5X2Xdjdkjh6gK4YkJtdVvV7dBcswUsGVT4"
+				"bzz-raw://fa1a1044191426c135ddefd073dba9d0b0fca4f95edfde75e47c462c4d0a9b64",
+				"dweb:/ipfs/QmR9fvajFiU85GCAPzkwZFff6omGRvgMq8yEVr53kx8G42"
 			]
 		}
 	},
