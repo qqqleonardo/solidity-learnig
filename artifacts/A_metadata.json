@@ -7,59 +7,41 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "bar",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "sender",
+				"name": "baz",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_contract",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "value",
+				"name": "foo",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -76,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"DelegateCall.sol": "A"
+			"Inheritance.sol": "A"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"DelegateCall.sol": {
-			"keccak256": "0x4a75c515e6a8c67f9e005c73ff0bac00a725fc20ac937dd2f394f4a11152d22a",
+		"Inheritance.sol": {
+			"keccak256": "0xc296d1e7cc0919ef97e9a4a3caa06864b82429e91223b427cb80ee4439095761",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20d7cee48d3c4b967694bb71f4a443d915791f292b99954899215773870111df",
-				"dweb:/ipfs/QmSDxKjkcmVQ5X2Xdjdkjh6gK4YkJtdVvV7dBcswUsGVT4"
+				"bzz-raw://b2dfa7f40bf7449f379f9ce99586584afb886f34d18582c9d6cf44526121cce5",
+				"dweb:/ipfs/QmbdWRqVoufVmQNjHgqvVHaP1qmcPH4yEjg4kK1n9vGeBU"
 			]
 		}
 	},

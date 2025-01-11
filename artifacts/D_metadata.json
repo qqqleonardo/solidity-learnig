@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"IERC721.sol": "Name"
+			"DutchAuction.sol": "D"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"IERC721.sol": {
-			"keccak256": "0xf59678c2373f9561e40ccc6bcf45c9d75f2bf7d77e1225ab6f7cabf3d4fefe92",
+		"DutchAuction.sol": {
+			"keccak256": "0xd208188dcb8a2a6f9f1b1bca3021b13934147efbd945baeac583b434d26593fd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66b5fa93c3f7203e3423aa392f41e4e27347cc08d321026676115f63e19908e6",
-				"dweb:/ipfs/QmbzuA23fVa6pKBR68hM3Tg9hAe6grGRNUpTBrMn6FPXq7"
+				"bzz-raw://6fe4120620a1cfb1ab851e67456406d0e89d6279b95d8438905d22d55297c221",
+				"dweb:/ipfs/QmRNi7wniXSDAi2yCShiBdJwd4grPdfDAfHZtxFDYQGrDe"
 			]
 		}
 	},

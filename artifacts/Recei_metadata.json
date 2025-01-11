@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FunctionSelector.sol": "Recei"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FunctionSelector.sol": {
+			"keccak256": "0xa32322770dbfc3e50a5c8bbd6c6f1335bba6ef783ffbe4289c1628036f69439e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1528aa9cc9d2141605d3a42108ef0981f27e7b0274a806c8f204d51ba89b12a5",
+				"dweb:/ipfs/QmWzR69baMvCWYEEA8gp6PS4pmWuwW2AbTJJzBYt8XEhMN"
+			]
+		}
+	},
+	"version": 1
+}

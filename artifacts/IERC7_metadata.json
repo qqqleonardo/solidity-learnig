@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"IERC721.sol": "Name"
+			"IERC721.sol": "IERC7"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"IERC721.sol": {
-			"keccak256": "0xf59678c2373f9561e40ccc6bcf45c9d75f2bf7d77e1225ab6f7cabf3d4fefe92",
+			"keccak256": "0xdc28b8f96cb1c57d17f99d9f348de73671e9a87381d5f5ed1f0624cd9cf754fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66b5fa93c3f7203e3423aa392f41e4e27347cc08d321026676115f63e19908e6",
-				"dweb:/ipfs/QmbzuA23fVa6pKBR68hM3Tg9hAe6grGRNUpTBrMn6FPXq7"
+				"bzz-raw://8691a77b8fc527f62d78bb1181ff2b482423c1863db78c2d46a1ca003882845d",
+				"dweb:/ipfs/QmahzeVeBrPvnoCNTrNr9ySmtNLsJHTvY4HHXzqsx5VQs4"
 			]
 		}
 	},

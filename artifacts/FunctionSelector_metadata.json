@@ -6,39 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "bar",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_func",
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "baz",
+				"name": "getSelector",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bytes4",
 						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "bytes4"
 					}
 				],
 				"stateMutability": "pure",
@@ -58,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Inheritance.sol": "B"
+			"FunctionSelector.sol": "FunctionSelector"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Inheritance.sol": {
-			"keccak256": "0xc296d1e7cc0919ef97e9a4a3caa06864b82429e91223b427cb80ee4439095761",
+		"FunctionSelector.sol": {
+			"keccak256": "0xdcc13adb959447e283088afb84cff64c52d471574dd6f6b13245697b1aecef9b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b2dfa7f40bf7449f379f9ce99586584afb886f34d18582c9d6cf44526121cce5",
-				"dweb:/ipfs/QmbdWRqVoufVmQNjHgqvVHaP1qmcPH4yEjg4kK1n9vGeBU"
+				"bzz-raw://32cedb99488cdcfd1fd0eb54f2117c6b24d712496570ff7b158627778808dea2",
+				"dweb:/ipfs/Qme4bdapGKJaFvqGbGkLqw1EKrvvCf8rXsVVBFMu1GtA9y"
 			]
 		}
 	},
