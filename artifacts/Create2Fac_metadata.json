@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DeployWithCreate2.sol": "Create2Fac"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DeployWithCreate2.sol": {
+			"keccak256": "0x11c9f110920127ab87a69ada52c404f1b5252fb84d101c4c5c1f10fa10f3ea8b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f680c8a1bdb317aa730b1764d64a04c5cb52a263fb1a54252b8fab03a8b428a3",
+				"dweb:/ipfs/QmVFnjVwN2wHpE3PJQRh2TnAT8rfi8CMFVD2v2Wtj8Ne1U"
+			]
+		}
+	},
+	"version": 1
+}

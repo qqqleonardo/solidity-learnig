@@ -84,12 +84,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -110,7 +110,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "balance",
 						"type": "uint256"
 					}
 				],
@@ -121,7 +121,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -134,7 +134,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -142,7 +142,7 @@
 				"outputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "operator",
 						"type": "address"
 					}
 				],
@@ -182,7 +182,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -195,7 +195,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -224,7 +224,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -247,7 +247,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					},
 					{
@@ -270,7 +270,7 @@
 					},
 					{
 						"internalType": "bool",
-						"name": "approved",
+						"name": "_approved",
 						"type": "bool"
 					}
 				],
@@ -287,7 +287,7 @@
 						"type": "bytes4"
 					}
 				],
-				"name": "supportsInterface",
+				"name": "supportInterface",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -295,7 +295,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -312,7 +312,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "tokenId",
 						"type": "uint256"
 					}
 				],
@@ -335,7 +335,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"NFT.sol": "MyNFT"
+			"IERC721.sol": "MyNFT"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -349,12 +349,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"NFT.sol": {
-			"keccak256": "0xd5692991daba9cd9cedeec04864884753acef286225b57095b295511cb7446ea",
+		"IERC721.sol": {
+			"keccak256": "0x4816ca7bb4ef136e30a023e20c13bde21520457079fa8a651273f2d9f5cdc704",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fdbc05191181ed15e902821844c9a53f259e52d0183a0607d868f4bc076dca36",
-				"dweb:/ipfs/QmZLcjeHHPBEnusPEmYRfZDMVrNonfe34WWwdoWvjSMT6k"
+				"bzz-raw://f7611b4839eefb90ef6e7896d1e97208487049cb94a496c1e5b363ed3af3b7cf",
+				"dweb:/ipfs/Qmar5Qrm8BwveqqRpP3e2bRhffS7urpRrnKkdFdUgDrFoa"
 			]
 		}
 	},

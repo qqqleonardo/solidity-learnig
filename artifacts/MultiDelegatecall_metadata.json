@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DelegatecallFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes[]",
+						"name": "data",
+						"type": "bytes[]"
+					}
+				],
+				"name": "multiDelegatecall",
+				"outputs": [
+					{
+						"internalType": "bytes[]",
+						"name": "results",
+						"type": "bytes[]"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MultiDelegatecall.sol": "MultiDelegatecall"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MultiDelegatecall.sol": {
+			"keccak256": "0x58b0533de3a87747dae43109590aff59bff0e9754240b5ab6afd510f756afab5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49aac4aacaafc1ee828e128e010874c4c02031a26854e5277ea46c1cfa336fc4",
+				"dweb:/ipfs/QmU5LG4cGRU3vwwFnLsWFsieDxHFqA2hm7wG7hpykyBYr1"
+			]
+		}
+	},
+	"version": 1
+}

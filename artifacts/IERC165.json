@@ -49,7 +49,7 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"supportsInterface(bytes4)": "01ffc9a7"
+			"supportInterface(bytes4)": "75e79be6"
 		}
 	},
 	"abi": [
@@ -57,11 +57,11 @@
 			"inputs": [
 				{
 					"internalType": "bytes4",
-					"name": "interfaceID",
+					"name": "interfaceId",
 					"type": "bytes4"
 				}
 			],
-			"name": "supportsInterface",
+			"name": "supportInterface",
 			"outputs": [
 				{
 					"internalType": "bool",
